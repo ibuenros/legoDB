@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: colored_pieces
+#
+#  id         :integer          not null, primary key
+#  code       :integer
+#  piece_id   :integer
+#  color_id   :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: 1
+  piece_id: 1
+  color_id: 1
+
+two:
+  code: 1
+  piece_id: 1
+  color_id: 1

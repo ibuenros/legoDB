@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: colors
+#
+#  id         :integer          not null, primary key
+#  code       :integer
+#  name       :string(255)
+#  rgb        :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: 1
+  name: MyString
+  rgb: MyString
+
+two:
+  code: 1
+  name: MyString
+  rgb: MyString

@@ -1,0 +1,7 @@
+<%= simple_form_for @inventory_piece, :html => { :class => 'form-horizontal' } do |f| %>
+
+    <%= f.association :inventory, label_method: :name %>
+    <%= f.association :colored_piece, label_method: :code %>
+    <%= f.button :submit %>
+
+<% end %>

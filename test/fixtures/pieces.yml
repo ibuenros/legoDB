@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: pieces
+#
+#  id         :integer          not null, primary key
+#  code       :integer
+#  name       :string(255)
+#  type_id    :integer
+#  width      :integer
+#  length     :integer
+#  height     :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: 1
+  name: MyString
+  type_id: 1
+  width: 1
+  length: 1
+  height: 1
+
+two:
+  code: 1
+  name: MyString
+  type_id: 1
+  width: 1
+  length: 1
+  height: 1
